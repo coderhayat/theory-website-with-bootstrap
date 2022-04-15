@@ -1,0 +1,94 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-box{
+    color: white;
+    background-image: url("../images/dd.jpg");
+}
+
+.banner p{
+    color: gray;
+}
+.banner h1{
+    font-weight: 100;
+}
+.three-box{
+    display: flex;
+}
+.three-box .box-1 h3, .three-box .box-2 h3, .three-box .box-3 h3{
+    color: #5385C1;
+}
+.three-box p{
+    color: grey;
+}
+.three-box .btn{
+    background-color: #5385C1;
+    border-radius: 0%;
+}
+/*start four person coding*/
+.four-person{
+    background-color: #5385C1;
+    color: white;
+}
+.image-border{
+    border: 1px solid gainsboro;
+    padding: 30px;
+}
+.four-person .heading h1{
+    font-weight: 100;
+}
+.four-person .heading p{
+    font-weight: 100;
+}
+.image-border h3,.image-border p{
+    font-weight: 100;
+}
+.image-border img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+/*end four person coding*/
+/*start two-box coding*/
+.two-box h1, .two-box p{
+    font-weight: 100;
+    color: #5385C1;
+}
+.two-box p{
+    color: gray;
+}
+.two-box img{
+    width: 100%;
+}
+.two-box h3{
+    color: #5385C1;
+}
+.two-box button{
+    border-radius: 0%;
+    background-color: #5385C1;
+}
+/*end two-box coding*/
+/*start footer coding*/
+.footer p{
+    color: gray;
+}
+.footer .fa{
+    color: #5385C1;
+    
+    font-size: 20px;
+}
+.footer-div-one{
+    text-align: left;
+}
+.footer-div-two{
+    text-align: right;
+}
+@media only screen and (max-width:767px){
+    .footer-div-one, .footer-div-two{
+        text-align: center;
+    }
+}
+/*end footer coding*/
